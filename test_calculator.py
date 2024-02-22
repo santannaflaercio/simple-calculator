@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch
-from main import calculate
+from calculator import calculate
 
 
 class TestCalculator(unittest.TestCase):
