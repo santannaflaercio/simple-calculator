@@ -2,37 +2,28 @@
 
 This repository contains a Python-based calculator project. It is designed to provide practice in programming fundamentals and serve as a useful calculation tool.
 
-## Features
+[![python](https://img.shields.io/badge/python-v3.10+-blue.svg?logo=python)](https://github.com/topics/python) [![calculator](https://img.shields.io/badge/calculator-math-orange.svg)](https://github.com/topics/calculator)
 
-- `Basic Operations`: Addition, subtraction, multiplication and division.
+## Operations
 
-## Installation
+The calculator can perform the following operations:
 
-### Prerequisites
+1. **Addition (`add`)**: This operation adds two numbers together.
+    - Example: `add(1, 2)` will return `3`.
 
-- Python 3.x (https://www.python.org/downloads/)
+2. **Subtraction (`subtract`)**: This operation subtracts the second number from the first.
+    - Example: `subtract(5, 3)` will return `2`.
 
-### To Set Up
+3. **Multiplication (`multiply`)**: This operation multiplies two numbers together.
+    - Example: `multiply(2, 3)` will return `6`.
 
-1. Clone this repository:
+4. **Division (`divide`)**: This operation divides the first number by the second. If the second number is `0`, it will return an error message.
+    - Example: `divide(10, 2)` will return `5`.
+    - Example: `divide(10, 0)` will return `"Error! Division by zero is not allowed."`
 
-    ```bash
-    git clone https://github.com/santannaflaercio/simple-calculator.git
-    ``` 
+## How to Run
 
-### Usage
-
-1. Navigate to the project directory:
-
-    ```bash
-    cd simple-calculator
-    ```
-
-2. Run the calculator script:
-
-    ```bash
-    python main.py
-    ```
+To run the calculator, simply run the `calculator.py` script in Python. The program will prompt you to select an operation and input two numbers, then it will display the result.
 
 ## How to Contribute
 
