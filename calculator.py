@@ -16,10 +16,11 @@ def calculate(choice=None):
 
     if choice not in operations:
         print("Invalid input. Please, try again.\n")
-        return
+        return calculate()
 
     num1, num2 = float(input("Enter first number: ")), float(input("Enter second number: "))
     result = operations[choice](num1, num2)
-    print(f"{num1} {['+', '-', '*', '/'][int(choice)-1]} {num2} = {result}\n")
+    print(f"{num1} {['+', '-', '*', '/'][int(choice) - 1]} {num2} = {result}\n")
 
-    print("Goodbye!")
+
+calculate()
